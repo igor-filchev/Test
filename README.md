@@ -1,21 +1,18 @@
 # Test
 This is test repository
 
+Created 02.03.2015
+Last update 02.03.2015
+
 <spoiler>
 The cake is a lie.
 </spoiler>
 
-his is a sentence >!with a spoiler in it.!<
-Which would output:
+02-03-2015 (Updateв  by Igor)
 
-This is a sentence <span class="spoiler">with a spoiler in it.</span>
-Though, I wonder if it would make a line that starts with an inline spoiler trickier to to write a parse for, like:
+To activate my file upload module you need to do next steps:
+1) Add to your project FileAPI files (In Panel Project file_upload directory in js one)
+2) Add file_upload directory from path: /template/modules and activate main file
+3) Set up directory for file upload in ajax.php and enable code for attaching to the database name of uploaded files
 
->!Spoiler at the beginning!< of this sentence
-may render like:
-
-<blockquote class="spoiler">
-  <p>Spoiler at the beginning!< of this sentence</p>
-</blockquote>
-
->! Spoiler text!
+`My module uses [FileAPI]:(https://github.com/RubaXa/jquery.fileapi) jquery plugin`
