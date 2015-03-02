@@ -17,3 +17,5 @@ may render like:
 <blockquote class="spoiler">
   <p>Spoiler at the beginning!< of this sentence</p>
 </blockquote>
+
+>! Spoiler text!
