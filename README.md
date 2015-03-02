@@ -17,12 +17,6 @@ To activate my file upload module you need to do next steps:
 
 >! My module uses [FileAPI](https://github.com/RubaXa/jquery.fileapi jquery plugin/) !
 
-[comment]: <> (This is a comment, it will not be included)
-[comment]: <> (in  the output file unless you use it in)
-[comment]: <> (a reference style link.)
-Or you could go further:
-
-[//]: <> (This is also a comment.)
-To improve platform compatibility (and to save one keystroke) it is also possible to use # (which is a legitimate hyperlink target) instead of <>:
-
-[//]: # (This may be the most platform independent comment)
+{% comment %} 
+    These commments will not include inside the source.
+{% endcomment %}
