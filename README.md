@@ -17,4 +17,4 @@ To activate my file upload module you need to do next steps:
 
 >! My module uses [FileAPI](https://github.com/RubaXa/jquery.fileapi jquery plugin/) !
 
->! Spoiler text!
+! Spoiler text!
