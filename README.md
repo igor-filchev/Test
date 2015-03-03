@@ -6,15 +6,14 @@ Last update 03.03.2015
 ###03-03-2015 (Created  by Igor)
 ###Rss feed module
 To add rss feed on website do next things:
- 1. Include in your folders rss class and servicing file `/template/pages/rss`
+ 1. Include in your folders rss class and servicing file **/template/pages/rss**
  2. Add next html code in header of website
 ```
 <link rel="alternate" type="application/rss+xml" href="http://adress/rss" title="RSS feed">
 ```
 Write in **href attibute** name of your website main page of your RSS feed and in **title attribute** name for
 your RSS feed . Then this code with inform rss reader, that your website has RSS feed and redirect on it from 
-any page.
- 
+any page. 
  3. Correct index file
 ```
 if ($uri->args[0] == "rss"){
