@@ -7,14 +7,15 @@ Last update 03.03.2015
 To add rss feed on website do next things:
 1. Include in your folders rss class and servicing file `/template/pages/rss`
 2. Add next html code in header of website
-``
+``html
 <link rel="alternate" type="application/rss+xml" href="http://adress/rss" title="RSS feed">
 ``
 Write in `href attibute` name of your website main page of your RSS feed and in `title attribute` name for
 your RSS feed . Then this code with inform rss reader, that your website has RSS feed and redirect on it from 
 any page.
 3. Correct index file
-``if ($uri->args[0] == "rss"){
+``php
+if ($uri->args[0] == "rss"){
     if (file_exists(ROOT . "template/pages/rss/rss.php")){
         include(ROOT . "template/pages/rss/rss.php");
     }
@@ -38,7 +39,7 @@ To activate it you need to do next steps:
 2. Add file_upload directory from path: /template/modules/upload and include main file in needed file
 ``include ROOT . "/template/modules/file_upload/file_upload.php";``
 3. Include FileApi and File upload module js-files in needed file
-``
+``html
  <script>
     window.FileAPI = {
         debug: false, // debug mode
