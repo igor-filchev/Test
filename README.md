@@ -1,5 +1,6 @@
  Created 02.03.2015
- Last update 03.03.2015
+ 
+Last update 03.03.2015
 
 
 ###03-03-2015 (Created  by Igor)
@@ -10,7 +11,7 @@ To add rss feed on website do next things:
 ```
 <link rel="alternate" type="application/rss+xml" href="http://adress/rss" title="RSS feed">
 ```
-Write in `href attibute` name of your website main page of your RSS feed and in `title attribute` name for
+Write in **href attibute** name of your website main page of your RSS feed and in **title attribute** name for
 your RSS feed . Then this code with inform rss reader, that your website has RSS feed and redirect on it from 
 any page.
  
@@ -26,9 +27,9 @@ else{
 }
 ```
 This code asks for rss file only if such request exists
- 4. Set up sql query parameters in serving file `/template/pages/rss/rss.php`. Do not change name of fields
-after `AS`! 
- 5. Set up parameters after requesting rss class (from line 30 in `/template/pages/rss/rss.php`)
+ 4. Set up sql query parameters in serving file **/template/pages/rss/rss.php**. Do not change name of fields
+after **AS**! 
+ 5. Set up parameters after requesting rss class (from line 30 in **/template/pages/rss/rss.php**)
 
 
 ###File upload module
@@ -36,8 +37,8 @@ after `AS`!
 With usage [FileAPI](https://github.com/RubaXa/jquery.fileapi) jquery plugin
 
 To activate it you need to do next steps:
- 1. Add to your project FileAPI files `/template/js/FileAPI`
- 2. Add file_upload directory from path: /template/modules/upload and include main file in needed file
+ 1. Add to your project FileAPI files **/template/js/FileAPI**
+ 2. Add file_upload directory from path **/template/modules/upload** and include main file in needed file
 ```
 include ROOT . "/template/modules/file_upload/file_upload.php";
 ```
@@ -56,6 +57,6 @@ include ROOT . "/template/modules/file_upload/file_upload.php";
 
 <script src="/template/modules/file_upload/drag_drop.js"></script>
 ```
- 4. Add Images folder `/template/img/system_images`
- 5. Set up directory for file upload in `/template/modules/file_upload/ajax.php` on lines 38 and 49 (variable
-$uploaddir) and `sql` requests (lines 74 and 84)
+ 4. Add Images folder **/template/img/system_images**
+ 5. Set up directory for file upload in **/template/modules/file_upload/ajax.php** on lines 38 and 49 (variable
+**$uploaddir**) and **sql requests** (lines 74 and 84)
