@@ -40,7 +40,7 @@ To activate it you need to do next steps:
 ```
 include ROOT . "/template/modules/file_upload/file_upload.php";
 ```
- 3. Include FileApi and File upload module js-files in needed file
+3. Include FileApi and File upload module js-files in needed file
 ```
  <script>
     window.FileAPI = {
@@ -55,6 +55,6 @@ include ROOT . "/template/modules/file_upload/file_upload.php";
 
 <script src="/template/modules/file_upload/drag_drop.js"></script>
 ```
- 4. Add Images folder `/template/img/system_images`
- 5. Set up directory for file upload in `/template/modules/file_upload/ajax.php` on lines 38 and 49 (variable
+4. Add Images folder `/template/img/system_images`
+5. Set up directory for file upload in `/template/modules/file_upload/ajax.php` on lines 38 and 49 (variable
 $uploaddir) and `sql` requests (lines 74 and 84)
