@@ -35,10 +35,12 @@ after `AS`!
 With usage [FileAPI](https://github.com/RubaXa/jquery.fileapi) jquery plugin
 
 To activate it you need to do next steps:
-1. Add to your project FileAPI files `/template/js/FileAPI`
-2. Add file_upload directory from path: /template/modules/upload and include main file in needed file
-``include ROOT . "/template/modules/file_upload/file_upload.php";``
-3. Include FileApi and File upload module js-files in needed file
+ 1. Add to your project FileAPI files `/template/js/FileAPI`
+ 2. Add file_upload directory from path: /template/modules/upload and include main file in needed file
+    
+    ``include ROOT . "/template/modules/file_upload/file_upload.php";``
+
+ 3. Include FileApi and File upload module js-files in needed file
 ``html
  <script>
     window.FileAPI = {
