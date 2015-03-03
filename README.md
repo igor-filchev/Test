@@ -25,7 +25,7 @@ else{
 }
 ```
 This code asks for rss file only if such request exists
- 4. Set up sql query parameters in serving file `/template/pages/rss/rss.php`. Do not change name of fields
+4. Set up sql query parameters in serving file `/template/pages/rss/rss.php`. Do not change name of fields
 after `AS`!
  5. Set up parameters after requesting rss class (from line 30 in `/template/pages/rss/rss.php`)
 
@@ -40,7 +40,6 @@ To activate it you need to do next steps:
 ```
 include ROOT . "/template/modules/file_upload/file_upload.php";
 ```
-
  3. Include FileApi and File upload module js-files in needed file
 ```
  <script>
