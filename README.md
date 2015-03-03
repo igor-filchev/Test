@@ -2,8 +2,8 @@ Created 02.03.2015
 Last update 03.03.2015
 
 
-###03-03-2015 (Created  by Igor)###
-###Rss feed module###
+###03-03-2015 (Created  by Igor)
+###Rss feed module
 To add rss feed on website do next things:
 1. Include in your folders rss class and servicing file `/template/pages/rss`
 2. Add next html code in header of website
@@ -30,8 +30,8 @@ after `AS`!
 5. Set up parameters after requesting rss class (from line 30 in `/template/pages/rss/rss.php`)
 
 
-###File upload module###
-###Created 02-12-2014 by Igor###
+###File upload module
+###Created 02-12-2014 by Igor
 With usage [FileAPI](https://github.com/RubaXa/jquery.fileapi) jquery plugin
 
 To activate it you need to do next steps:
