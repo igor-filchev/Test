@@ -13,6 +13,7 @@ To add rss feed on website do next things:
 Write in `href attibute` name of your website main page of your RSS feed and in `title attribute` name for
 your RSS feed . Then this code with inform rss reader, that your website has RSS feed and redirect on it from 
 any page.
+ 
  3. Correct index file
 ```
 if ($uri->args[0] == "rss"){
@@ -25,8 +26,8 @@ else{
 }
 ```
 This code asks for rss file only if such request exists
-4. Set up sql query parameters in serving file `/template/pages/rss/rss.php`. Do not change name of fields
-after `AS`!
+ 4. Set up sql query parameters in serving file `/template/pages/rss/rss.php`. Do not change name of fields
+after `AS`! 
  5. Set up parameters after requesting rss class (from line 30 in `/template/pages/rss/rss.php`)
 
 
@@ -40,7 +41,7 @@ To activate it you need to do next steps:
 ```
 include ROOT . "/template/modules/file_upload/file_upload.php";
 ```
-3. Include FileApi and File upload module js-files in needed file
+ 3. Include FileApi and File upload module js-files in needed file
 ```
  <script>
     window.FileAPI = {
@@ -55,6 +56,6 @@ include ROOT . "/template/modules/file_upload/file_upload.php";
 
 <script src="/template/modules/file_upload/drag_drop.js"></script>
 ```
-4. Add Images folder `/template/img/system_images`
-5. Set up directory for file upload in `/template/modules/file_upload/ajax.php` on lines 38 and 49 (variable
+ 4. Add Images folder `/template/img/system_images`
+ 5. Set up directory for file upload in `/template/modules/file_upload/ajax.php` on lines 38 and 49 (variable
 $uploaddir) and `sql` requests (lines 74 and 84)
